@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NumberPlaySuite" parallel="tests" thread-count="2">
+  <test name="LowestTest">
+    <classes>
+      <class name="Exercise1Test.NumberPlay_lowestTest_Excel"/>
+    </classes>
+  </test>
+  <test name="SecondLowestTest">
+   <classes>
+      <class name="Exercise1Test.NumberPlay_SecondLowestTest_Excel"/>
+    </classes>
+    </test> 
+    <!-- AllTest -->
+</suite> <!-- NumberPlaySuite -->
